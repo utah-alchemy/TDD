@@ -10,14 +10,14 @@ This is an introduction to test-driven development and other testing ideas.
 * [Elixir School chapter on testing](https://elixirschool.com/lessons/basics/testing/)
 
 ### DSL on top of ExUnit to write clearer tests
-[True Story](https://github.com/ericmj/true_story)
+* [True Story](https://github.com/ericmj/true_story)
 
 ### Test-Driven Development
 * Test Driven Development: By Example, Kent Beck, Addison-Wesley Longman, 2002
 
 ### Browser Automation
-[Hound](https://github.com/HashNuke/hound)
-[Wallaby](https://github.com/keathley/wallaby)
+* [Hound](https://github.com/HashNuke/hound)
+* [Wallaby](https://github.com/keathley/wallaby)
 
 ### Behavior-Driven Development
 * [Wikipedia's article on BDD](https://en.wikipedia.org/wiki/Behavior-driven_development)
