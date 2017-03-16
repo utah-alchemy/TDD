@@ -15,14 +15,20 @@ This is an introduction to test-driven development and other testing ideas.
 ### Test-Driven Development
 * Test Driven Development: By Example, Kent Beck, Addison-Wesley Longman, 2002
 
-### Browser Automation
-* [Hound](https://github.com/HashNuke/hound)
-* [Wallaby](https://github.com/keathley/wallaby)
-
 ### Behavior-Driven Development
 * [Wikipedia's article on BDD](https://en.wikipedia.org/wiki/Behavior-driven_development)
 * [pavlov](https://github.com/sproutapp/pavlov) an Elixir BDD framework built on top of ExUnit
 * [espec](https://github.com/antonmi/espec) an Elixir BDD framework NOT built on ExUnit
+
+### Browser Automation
+* [Hound](https://github.com/HashNuke/hound)
+* [Wallaby](https://github.com/keathley/wallaby)
+
+
+### Tips from Jose
+* [Mocks and Explicit Contracts](http://blog.plataformatec.com.br/2015/10/mocks-and-explicit-contracts/)
+* [Testing Private Functions](http://stackoverflow.com/questions/20949358/is-there-a-way-to-test-private-functions-in-modules-in-exunit-of-elixir)
+* [Ecto 2.0 eBook](http://pages.plataformatec.com.br/ebook-whats-new-in-ecto-2-0) see the section on Testing Factories
 
 ### Quick Check (Advanced Topic)
 * [QuickCheck for Elixir Presentation at ElixirConf EU 2015](https://www.youtube.com/watch?v=nbpZRm9gl50)
