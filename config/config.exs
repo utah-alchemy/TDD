@@ -9,6 +9,9 @@ use Mix.Config
 config :tdd,
   namespace: TDD
 
+# Configure hound
+config :hound, driver: "chrome_driver"
+
 # Configures the endpoint
 config :tdd, TDD.Endpoint,
   url: [host: "localhost"],
