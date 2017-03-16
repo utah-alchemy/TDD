@@ -14,21 +14,17 @@ defmodule TDD.PageTest do
     assert inner_text(heading) == "Welcome!"
   end
 
-  test "Get /personal_greeting shows personal greeting" do
+  test "Get /personal_greeting/<name> shows personal greeting" do
 
     # Given (Setup)
-    navigate_to(@home_url <> "personal_greeting")
-    take_screenshot()
-    text_field = find_element(:css, "#name-field")
-    submit_button = find_element(:css, "button")
-
+    navigate_to(@home_url <> "personal_greeting/Jon")
+    # take_screenshot()
 
     # When (Action)
-    fill_field(text_field, "Jon")
-    click(submit_button)
+    greeting_field = find_element(:css, "#greeter")
 
-    # Then (Result) Note: use of shorthand syntax to get and click element
-    assert inner_text({:css, "#greeter"}) == "Hello Jon!"
+    # Then (Result)
+    assert inner_text(greeting_field) == "Hello Jon!"
 
   end
 end

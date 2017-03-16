@@ -1,0 +1,3 @@
+<div>
+  <p id="greeter">Hello <%= @person %>!</p>
+</div>
