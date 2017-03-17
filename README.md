@@ -2,6 +2,9 @@
 
 This is an introduction to test-driven development and other testing ideas.
 
+NOTE: I setup some of the packages referenced below in mix.exs including hound.  You
+will need to follow the instructions on Hound's README page to setup hound
+properly which requires a webdriver installed and running.
 
 ## References and Links
 
