@@ -28,7 +28,7 @@ properly which requires a webdriver installed and running.
 * [Wallaby](https://github.com/keathley/wallaby)
 
 
-### Tips from Jose
+### Tips from José
 * [Mocks and Explicit Contracts](http://blog.plataformatec.com.br/2015/10/mocks-and-explicit-contracts/)
 * [Testing Private Functions](http://stackoverflow.com/questions/20949358/is-there-a-way-to-test-private-functions-in-modules-in-exunit-of-elixir)
 * [Ecto 2.0 eBook](http://pages.plataformatec.com.br/ebook-whats-new-in-ecto-2-0) see the section on Testing Factories
